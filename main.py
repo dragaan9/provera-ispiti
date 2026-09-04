@@ -22,7 +22,6 @@ def posalji_telegram_poruku(poruka):
 
 
 def proveri():
-  posalji_telegram_poruku("Test poruka sa GitHub-a! Sve radi kako treba.")
   session = requests.Session()
   session.headers.update({
       "User-Agent": (
